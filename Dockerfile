@@ -1,6 +1,6 @@
 # Dockerfile for local development just installing dependencies.
 # Use together with `docker-compose up`
-FROM node:alpine
+FROM node:14.15-alpine
 
 RUN mkdir -p /portfolio
 WORKDIR /portfolio
